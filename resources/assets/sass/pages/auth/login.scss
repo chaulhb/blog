@@ -9,13 +9,29 @@
         input.form-control {
             border: none;
             border-bottom: 1px solid #eee;
+            color: #868e96;
+            transition: unset;
+            border-radius: unset;
+            background-clip: unset;
+            padding-left: 0;
             ~ label {
                 position: absolute;
                 top: 0.4rem;
+                color: #aaa;
+                cursor: text;
+                transition: all 0.2s;
+                font-weight: 300;
+                &.active {
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                    top: -10px;
+                    color: #33b35a;
+                }
             }
             &:focus {
                 outline: none;
-                padding-left: 0;
+                border-bottom: 2px solid #33b35a;
+                box-shadow: none;
             }
         }
     }
