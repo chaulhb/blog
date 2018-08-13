@@ -1,0 +1,29 @@
+.new_form.login {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.new_form .form-group {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.new_form .form-group input.form-control {
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.new_form .form-group input.form-control ~ label {
+  position: absolute;
+  top: 0.4rem;
+}
+
+.new_form .form-group input.form-control:focus {
+  outline: none;
+  padding-left: 0;
+}
+
+.login-title {
+  margin-bottom: 3rem;
+}
+
